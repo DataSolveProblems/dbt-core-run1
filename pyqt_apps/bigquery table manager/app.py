@@ -15,7 +15,7 @@ class AppWindow(QWidget):
 		self.setWindowIcon(QIcon('bigquery.png'))
 		self.setStyleSheet('''
 			QWidget {
-				font-size: 14px;
+				font-size: 16px;
 			}
 		''')
 
@@ -84,7 +84,7 @@ class AppWindow(QWidget):
 
 
 if __name__ == "__main__":
-	os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'C:\Users\Me\Documents\PythonVenv\dbtcoredemo\reddit_playground\sql_for_bigquery_service_account.json'
+	os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'H:\PythonVenv\dbt-core-project-demo\reddit_playground\sql_for_bigquery_service_account.json'
 	bquery = BQuery()
 
 	app = QApplication(sys.argv)

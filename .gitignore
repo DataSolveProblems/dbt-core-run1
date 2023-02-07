@@ -4,3 +4,5 @@ dbt_packages/
 logs/
 
 sql_for_bigquery_service_account.json
+
+*.pyc
